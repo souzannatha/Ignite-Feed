@@ -1,6 +1,6 @@
-import { Post } from "./Post";
 import { Header } from "./components/Header";
 import { Sidebar } from "./components/Sidebar";
+import { Post } from "./components/Post";
 
 import styles from "./App.module.css";
 import "./global.css";
@@ -14,14 +14,7 @@ export function App() {
           <Sidebar />
         </aside>
         <main>
-          <Post
-            author="Nathã Souza"
-            content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem tenetur distinctio cum sint illum. Iusto corrupti blanditiis veritatis assumenda quam, architecto distinctio rerum aliquid nisi asperiores doloribus animi officiis esse."
-          />
-          <Post
-            author="Nathã Souza"
-            content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem tenetur distinctio cum sint illum. Iusto corrupti blanditiis veritatis assumenda quam, architecto distinctio rerum aliquid nisi asperiores doloribus animi officiis esse."
-          />
+          <Post />
         </main>
       </div>
     </div>
